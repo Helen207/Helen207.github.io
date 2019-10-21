@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Helena Hajduková</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+    
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">Helena Hajduková</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#aboutme" class="nav-link"><i class="fa fa-user"></i> About Me</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link"><i class="fa fa-th"></i> Portfolio</a>
+                </li>
+                <li class="nav-item">
+                        <a href="#contact" class="nav-link"><i class="fa fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="color-overlay"> </div>
+    <main class="content-wrapper">
+  
+<!-- Header -->
+        <header class="white-text-container section-container">
+            <div class="text-center">
+                <h1>I am Helena Hajduková</h1>
+                <p>Web Developer Trainee</p>
+                <div class="icons">
+                    <p>
+                        <a class="fa-icon fa-icon-2x" href="https://github.com/Helen207" title="">
+                          <i class="fa fa-github"></i>
+                        </a>
+                        <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/in/helena-hajduková-a7b66a157/" title="">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                         <a class="fa-icon fa-icon-2x" href="https://www.facebook.com/modrooka.blondinka" title="">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="fa-icon fa-icon-2x" href="https://twitter.com/Helena54746811" title="">
+                           <i class="fa fa-twitter"></i>
+                        </a>
+                      </p>
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="container">
+                <a name="aboutme"></a>
+                <div class="row">
+                  <div class="col-xs-12">
+  <!-- About me -->
+
+                    <div class="card">
+                            <div class="card-block">
+                              <h2 class="text-center">About me</h2>
+                              
+                                <div class="container-1">
+                                <div class="box-1">    
+                                <p><img src="./images/image.jpg" class="img-responsive" alt=""></p>
+                            </div>
+                            <div class="box-2">
+                                <p> After two years of studying on University in Economic Informatics and a 1,5 year career in the financial industry, I've decided to change directions to follow my passion for technology. </p>
+                                <p>I've been learning full stack development for <span id="date"></span> months and it is now my main focus. I am learning through online courses and articles and to improve myself to the best of my ability every day. </p>
+                                <p>I enjoy spend my time with friends. In my down-time I like to read books and play piano.</p>
+                            </div>
+                            </div>
+                            </div>
+                          </div>
+
+  <!-- Skills -->
+                  <div class="card">
+                      <div class="card-block">
+                        <h2 class="text-center">Skills</h2>
+                        <div class="page-section section-skills text-center">
+                          <div class="container skill-container">
+                            <img class="skill-image" src="./images/HTML5.png" title="HTML5" alt="HTML5">
+                            <img class="skill-image" src="./images/CSS3.png" title="CSS3" alt="CSS3">
+                            <img class="skill-image" src="./images/bootstrap.png" title="bootstrap" alt="Bootstrap">
+                            <img class="skill-image" src="./images/javascript.png" title="Javascript" alt="Javascript">
+                            <img class="skill-image" src="./images/react.png" title="ReactJS" alt="ReactJS">
+                            <img class="skill-image" src="./images/nodejs.png" title="NodeJS" alt="NodeJS">
+                            <img class="skill-image" src="./images/post.png" title="PostgreSQL" alt="PostgreSQL">
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <a name="portfolio"></a>
+                    </div>
+
+
+    
+  <!-- Portfolio -->
+                    <div class="card">
+                      <div class="card-block">
+                        <h2 class="text-center portfolio-sub">Portfolio</h2>
+                        <h5 class="text-center mb-5 font-weight-lighter font-italic"> Here are some of my latest portfolio work</h5>
+                        <div class="row">
+                          <div class="col-md-12 col-lg-6">
+                            <h3 class="h5 text-center"><u>Face Detector App</u></h3>
+                            <div class="textWithBlurredBg">
+                              <img src="./images/smartbrain.PNG" class="img-portfolio" alt="">
+                              <p class="top-comment">
+                                This app uses a machine learning API to recognize faces. It utilizes a sign in system secured with Bcrypt password hashing.</p>
+                              <p>Created with: ReactJS, CSS, NodeJS, PostgreSQL & Clarifai API and deployed with Heroku. </p>
+                            </div>
+                            <div class="buttons text-center mt-2">
+                            <a href="https://github.com/Helen207/smart-brain-frontend" type="button" class="btn-dark divider">Code</a>
+                            <a href="https://smart-brain-helen.herokuapp.com" type="button" class="btn-dark divider">Live Demo</a>
+                            </div>
+                          </div>
+                          <div class="col-md-12 col-lg-6">
+                            <h3 class="h5 text-center"><u>Robofriends App</u></h3>
+                            <div class="textWithBlurredBg">
+                              <img src="./images/robofriends.PNG" class="img-portfolio" alt="">
+                              <p class="top-comment">
+                                A fun front-end React app that displays a friends list with a search function.</p>
+                              <p>Created with: ReactJS, CSS & Robohash API. </p>
+                            </div>
+                            <div class="buttons text-center mt-2">
+                            <a href="https://github.com/Helen207/robofriends" type="button" class="btn-dark divider">Code</a>
+                            <a href="https://gentle-fjord-04796.herokuapp.com" type="button" class="btn-dark divider">Live Demo</a>
+                            </div>
+                          </div>
+                          <div class="row">
+                          <div class="col-md-12 col-lg-6">
+                            <h3 class="h5 text-center"><u>Pig game</u></h3>
+                            <div class="textWithBlurredBg">
+                              <img src="./images/piggame.PNG" class="img-portfolio" alt="">
+                              <p class="top-comment">
+                                The game has 2 players. In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score. BUT, if the player rolls a 1, all his ROUND score gets lost and it's the next player's turn. The first player to reach 100 points on GLOBAL score wins the game</p>
+                              <p>Created with: HTML, CSS and Javascript primary using DOM.</p>
+                            </div>
+                            <div class="buttons text-center mt-2">
+                            <a href="https://github.com/Helen207/pig-game" type="button" class="btn-dark divider">Code</a>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div>
+                </div>
+
+  <!-- Contact -->
+                  <div class="card">
+                    <a name="contact"></a>
+                    <div class="card-block text-center">
+                      <h2 class="footer-sub">Contact</h2>
+                      <h5 class="font-italic"> If you're interested in chatting or have any questions I'd love for you to reach out!</h5>
+                        <a class="fa-icon fa-icon-2x" href="https://github.com/samraha" title="">
+                          <i class="fa fa-github"></i>
+                        </a>
+                        <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/in/sam-raha-6983a4b6/" title="">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                        <p class="text-center contacts" id="phone"> Phone: <a href="tel:+447842602888"><strong> +421 915 379 403 </strong></a></p>
+                        <p class="text-center contacts" id="email"> Email: <a href="mailto:sam.raha@hotmail.co.uk"><strong>hajdukovah@gmail.com</strong></a></p>
+                    </div>
+                  </div>
+                  <footer>
+                      <div class="font-italic footer group">
+                      </div>
+                  </footer>
+                 
+              </div>
+            </div>
+          </div>
+    </main>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
